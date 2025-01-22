@@ -4,6 +4,7 @@
 #define STEP 20
 int main()
 {
+    /*/*/
     int fahr, celsius;
     fahr=LOWER;
     while(fahr<=UPPER)
