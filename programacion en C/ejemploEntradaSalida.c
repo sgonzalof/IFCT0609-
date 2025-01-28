@@ -2,13 +2,19 @@
 int main(void)
 {
     int a,b;
+    float resultado;
     printf("\nIntroduce el valor de a: ");
     scanf("%d",&a);
     printf("\nIntroduce el valor de b: ");
     scanf("%d",&b);
 
     if (b!=0)
-        printf("\nEl valor de %d dividido %d es: %f\n",a,b,(float)a/b);
+    {
+        resultado=a/b;
+
+        printf("\nEl valor de %d dividido %d es: %f\n",a,b,resultado);
+    
+    }
     else
         printf("\nError, b vale 0\n");
 
