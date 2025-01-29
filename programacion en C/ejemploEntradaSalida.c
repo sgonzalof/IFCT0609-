@@ -21,7 +21,7 @@ int main(void)
     return 0;
 }
 
-#include <stdio.h>
+/*#include <stdio.h>
 int main()
 {
     int fahr, celsius;
@@ -37,4 +37,4 @@ int main()
         fahr=fahr+step;
     }
     return 0;
-}
+}*/
