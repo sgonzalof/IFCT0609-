@@ -18,7 +18,7 @@ int main()
                break;
         default:
             printf("El valor esta fuera de rango");
-    }
-    
+    } //fin del switch
+    printf("fin del procedimiento");
     return 0;
 }
