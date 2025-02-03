@@ -14,7 +14,7 @@ int main(void)
     tabla=(int**)malloc(numero*sizeof(int));
     if (tabla==NULL) exit(0);
 
-    for ( i = 0; i < 5; i++) {
+    for ( i = 0; i < 4; i++) {
         tabla[i]=malloc(4*sizeof(int));
         if (tabla[i]==NULL) exit(0);        
     }
@@ -25,7 +25,7 @@ int main(void)
   
     // al final, elimino la memoria reservada por malloc utilizando la funcion free
 
-    for (i=0;i<5;i++) free(tabla[i]);
+    for (i=0;i<4;i++) free(tabla[i]);
     free(tabla);
     return 0;
 }
